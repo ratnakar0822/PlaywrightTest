@@ -1,4 +1,4 @@
-package com.qz.playwrite;
+package com.qz.playwright;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-public class PlaywriteDemo {
+public class PlaywrightDemo {
     public static final boolean HEADLESS = true;
     public static void main(String[] args) {
         try (Playwright playwright = Playwright.create()) {
